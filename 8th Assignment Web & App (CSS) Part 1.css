@@ -3,10 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-    font-family: "poppins", sans-serif;
 }
 a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: x-large;
     color: rgb(0, 0, 0);
     
@@ -28,10 +26,11 @@ a {
     text-decoration: none;
     color: var(--second-color);
 }
-a:hover {
+.W3school-FontAwesome:hover {
  background-color: red;
  padding: 10px;
-    text-decoration: underline;
+text-decoration: underline;
+cursor: pointer;
 }
 .wrapper {
     width: 100%;
@@ -79,7 +78,6 @@ a:hover {
     box-shadow: 15px 0 0 0 var(--primary-color);
 }
 .login-header::after {
-    content: "";
     position: absolute;
     top: 0;
     right: -30px;
@@ -107,9 +105,9 @@ a:hover {
     outline: none;
     background-image: url(8th\ Assignment\ Web\ &\ App\ \(CSS\)\ Part\ 1\ Image\ 2.png);
     color: white;
-    background-size: 50px;
+    background-size: 35px;
     background-repeat: no-repeat;
-padding-right: 10px;
+padding-right: 5px;
     background-position: 310px;
 }
 .input-field2{
@@ -124,7 +122,7 @@ padding-right: 10px;
     outline: none;
     background-image: url(8th\ Assignment\ Web\ &\ App\ \(CSS\)\ Part\ 1\ Image\ 3.png);
     color: white;
-    background-size: 35px;
+    background-size: 25px;
     background-repeat: no-repeat;
     background-position: 310px;
 }
@@ -135,25 +133,6 @@ padding-right: 10px;
     position: absolute;
     top: -30px;
     left: 20px;
-}
-.input-field:focus~.label,
-.input-field:valid .label{
-    position: absolute;
-    top: -10px;
-    left: 20px;
-    font-size: 14px;
-    background-color: var(--primary-color);
-    border-radius: 30px;
-    color: var(--black-color);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-.icon {
-    position: absolute;
-    top: 18px;
-    right: 25px;
-    font-size: 20px;
 }
 .remember-forgot {
     display: flex;
@@ -173,44 +152,12 @@ padding-right: 10px;
 }
 .input-submit:hover {
     background: var(--second-color);
+    color: black;
 }
 .register {
     text-align: center;
 }
-.register a {
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-}
-@media only screen and (max-width: 564px) {
-    .wrapper {
-        padding: 20px;
-    }
-    .login_box {
-        padding: 7.5em 1.5em 4em 1.5em;
-    }
-}
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.icon.blinking {
-    animation: blink 1s infinite;
-}
-    #source-link {
-        top: 60px;
-      }
-  
-      #source-link>i {
-        color: rgb(94, 106, 210);
-      }
       .forgot > a{
-        font-family: Arial, Helvetica, sans-serif
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
       }
